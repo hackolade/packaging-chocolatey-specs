@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>hackolade-studio</id>
+    <version>__VERSION__</version>
+    <packageSourceUrl>https://github.com/hackolade/studio/blob/develop/ci-cd/chocolatey/hackolade-studio/hackolade-studio.nuspec</packageSourceUrl>
+    <owners>IntegrIT S.A. dba Hackolade</owners>
+    <title>Hackolade Studio</title>
+    <authors>Hackolade</authors>
+    <projectUrl>https://hackolade.com</projectUrl>
+    <copyright>Copyright © 2016-2023 by IntegrIT S.A. dba Hackolade.  All rights reserved.</copyright>
+    <docsUrl>https://hackolade.com/help/index.html</docsUrl>
+    <bugTrackerUrl>https://hackolade.zendesk.com/hc/en-us/requests/new</bugTrackerUrl>
+    <tags>hackolade data modeling</tags>
+    <summary>Polyglot Data Modeling tool for NoSQL databases, storage formats, REST APIs, and JSON in RDBMS.</summary>
+    <description>Make business sense of your data with Metadata-as-Code and visual schema design for data storage and data exchanges. Check out https://hackolade.com for more details.</description>
+    <releaseNotes>https://hackolade.com/versionInfo/ReadMe.txt</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
